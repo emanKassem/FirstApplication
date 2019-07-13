@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="sign in"
+    android:textSize="50sp"
+    android:fontFamily="serif"
+    />
+
+    <EditText
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_margin="16dp"
+    android:hint="user name"
+    android:padding="8dp"
+    />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/android_architecture_diagram"
+            android:layout_margin="20dp"/>
+        <View
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+
+<Button
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="log in"
+    android:layout_margin="16dp"
+    android:padding="8dp"
+    android:textStyle="italic|bold"
+    android:fontFamily="monospace"
+    android:background="@color/colorAccent"
+    android:textColor="@color/colorWhite"
+    android:layout_gravity="center"
+    />
+
+
+</LinearLayout>
